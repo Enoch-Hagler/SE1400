@@ -9,7 +9,7 @@ body {
   justify-content: center;
 }
 
-/* MAIN GRID — EXACT SIZE */
+
 .layout {
   width: 1200px;
   height: 1600px;
@@ -21,13 +21,13 @@ body {
 
 
   grid-template-rows:
-    120px   /* red */
-    80px    /* blue */
-    80px    /* teal */
-    520px   /* green */
-    120px   /* orange */
-    560px   /* purple */
-    120px;  /* pink */
+    120px  
+    80px    
+    80px    
+    520px   
+    120px   
+    560px   
+    120px;  
 
   border: 2px solid black;
 }
@@ -80,7 +80,7 @@ body {
   background: purple;
 }
 
-/* Footer */
+
 .footer {
   grid-column: 1 / -1;
   background: pink;
